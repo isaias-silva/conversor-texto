@@ -1,5 +1,6 @@
 function mudar(v) {
     let textarea = document.querySelector("#txt")
+    let texto = "";
     if (textarea.value != "") {
         textarea.value = (textarea.value).trim()
 
@@ -12,6 +13,15 @@ function mudar(v) {
                 textarea.value = (textarea.value)[0].toUpperCase() + (textarea.value).slice(1).toLowerCase()
 
             }
+        } else if (v == "maiu_cada") {
+            var separatorfrase = textarea.value.split(" ");
+
+            for (var i in separatorfrase) {
+                separatorfrase[i] = (separatorfrase[i][0]).toUpperCase() + (separatorfrase[i]).slice(1).toLowerCase();
+                texto += separatorfrase[i] + " ";
+            }
+            textarea.value = texto;
+
         }
     }
 }
