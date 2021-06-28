@@ -29,7 +29,7 @@ h1 {
 
 #botoes button {
     width: 150px;
-    height: 30px;
+    height: auto;
     display: inline-block;
     margin: 10px;
     box-shadow: 4px 4px 4px rgb(42, 99, 100);
