@@ -49,6 +49,9 @@ h1 {
         display: block;
         margin: auto;
     }
+    #txt {
+        height: 100px;
+    }
 }
 
 footer {
@@ -56,3 +59,5 @@ footer {
     margin-top: 30px;
     text-align: center;
 }
+
+@media screen and (max-width:735px) {}
