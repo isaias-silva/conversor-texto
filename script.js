@@ -1,6 +1,8 @@
 function mudar(v) {
     let textarea = document.querySelector("#txt")
     if (textarea.value != "") {
+        textarea.value = (textarea.value).trim()
+
         if (v == "maiu") {
             textarea.value = (textarea.value).toUpperCase()
         } else if (v == "minu") {
