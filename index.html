@@ -5,29 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>conversor de texto</title>
 </head>
 
 <body>
     <div id="conteudo">
-        <h1>conversor de texto</h1>
+        <h1>text converter</h1>
         <div id="txta">
-            <textarea id="txt"></textarea>
+            <textarea id="txt" placeholder="digite seu texto"></textarea>
         </div>
         <div id="botoes">
-            <button value="maiu" onclick="mudar(this.value)">maiusculas</button>
-            <button value="minu" onclick="mudar(this.value)">minusculas</button>
-            <button value="maiu_ini" onclick="mudar(this.value)">Maiuscula no inicio</button>
-            <button value="maiu_cada" onclick="mudar(this.value)">maiuscula de cada primeira letra</button>
+            <button value="maiu" onclick="mudar(this.value)">Maiuscula</button>
+            <button value="minu" onclick="mudar(this.value)">minuscula</button>
+            <button value="maiu_ini" onclick="mudar(this.value)">primeira maiuscula</button>
+            <button value="maiu_cada" onclick="mudar(this.value)">primeira maiuscula de cada palavra</button>
 
 
         </div>
     </div>
-    <footer>
-        <p>isaias santos &copy;</p>
+
+  <footer>
+        <a href="https://github.com/isaias-silva" target="_blank" rel="noopener noreferrer"><p>isaias santos &copy;</p></a>
     </footer>
+
+
+    <div class="ads">
+        <a href="https://encurta.net/ref/zackBlack" target="_blank" ><img src="https://snipboard.io/hHtLBP.jpg" alt="EncurtaNet" /></a> 
+    </div>
+   
+
     <script src="script.js"></script>
+
+
+
 </body>
 
 </html>
